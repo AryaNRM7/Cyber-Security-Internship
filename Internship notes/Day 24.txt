@@ -1,0 +1,68 @@
+XSS or cross site scripting :
+
+Google dorks to find websites with xss vuln :
+extn : client side : .html,.js,.css
+	  server side : .php,.aspx,.jsp
+Dork for search pages :
+For php :
+inurl:search.php  site:in/pk/us/cn
+inurl:/search.php
+for jsp:
+inurl:search.jsp
+inurl:/search.jsp
+for aspx (.net framework)
+inurl:search.aspx
+inurl:/search.aspx
+
+For Comment pages :
+inurl:comment.php
+inurl:/comment.php
+inurl:?comment.php
+
+
+<script>alert(123)</script>
+
+XSS exists if :
+input is returned back in
+1.in the same input fiels
+2.anywhere inside the page
+3.can be in the url
+
+Counter measures for XSS :
+-Filter the input on arrival :
+	When the input is given to the website , the extra content should be eliminated in the serverr side
+-using url encoding :
+	the special characters are encoded using ascii encoding
+	like %3,%c
+-using html encoding:
+	it is also same as url encoding but is done inside html
+-using content security policy :
+	combination of all mentioned above along with using appropraite response header
+	like : X-XSS-PROTECTION: 1;mode=block
+should be done on dev side
+
+Solution for zero day vuln or any other XSS vuln:
+No script : browser extension :
+restricts the execution of js func in the website u visit.
+can also provide security from phishing pages
+
+
+SQL Injection:
+Structured Query Language
+few db languages:
+SQL
+TSQL
+POSTGRESQL
+mySQL
+
+When user gives uid and pss
+db lang creates a query
+chechk the db
+then returns the user a response
+
+For sql injection:
+uid : '=' 'OR'
+pass : '=' 'OR'
+
+This query gives direct authorization to the attacker
+ 

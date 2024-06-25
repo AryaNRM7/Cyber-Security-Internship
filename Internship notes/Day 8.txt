@@ -1,0 +1,55 @@
+To perform netbios enumeration
+Super scan and netbios enumerator are used
+
+Each and every OS has a netbios service running within local area network
+
+if a os blocks our scan request in the nmap ...... we have to use intense scan with no ping scan
+
+****To bypass the firewall we have to slow comprehensive scan
+
+There are some devices which dont have a password and also there are some users who enable admin acc and they forget to disable it
+
+Every user should have a strong password
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Gaining access 
+ the hacker performs exploitation on vulnerabilities in order to gain unauthorized access
+
+techniques the hacker uses inorder to perform exploitation
+
+
+
+
+the hacker needs to find vulnerabilities
+he can do it in two ways
+finding vulnerabilities manually with physical access
+	hacker needs to bypass the login
+	beginner level password changing technique
+	to do this he needs following
+		physical access
+		system should be booted up
+		user account should be logged in
+		******there is a tool called net user tool which is used to manage 				user information
+		command : net user
+		to change the password of the user
+		command  : net user acc_name pass
+		ex : net user AryaN 123456****
+There are advanced settings the hacker can change the password or get the current password without even the system being booted up.
+finding vulnerabilities with automatic tools
+	vulnerability assesment tools in order to find the vulnerabhiities on the target network and the target devices
+
+****Advanced Tool called NESSUS
+it has a built in Nmap
+
+activation code : 3QEW-9JWW-S6EJ-DDQG-46EJ
+
+
+
+
+
+
+
+
+

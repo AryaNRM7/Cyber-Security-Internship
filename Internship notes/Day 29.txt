@@ -1,0 +1,49 @@
+Hashing algo :
+MD 4,5(message digest)
+SHA(secyre hash algo)
+
+tools:
+hash calci
+MD5 claculator
+hash my files 
+
+Disk encryption:
+ tools:
+	symantec drive encryption software
+	gillisoft full distribution
+	veracrypt : used to make virtual partitions with encrypted format
+
+Cloud Computing :
+Google drive
+technology that allows acess to personal and shared resources with minimal management often with internet.
+
+types of cloud services :
+-IAAS infrastructure as a service ex : Amazon ec2 , cisco metapod , microsoft azure
+-PAAS platform as a service ex : google apps , microsoft azure , intel mesh 
+-SAAD software as a service ex : office 365,zoom application,webex meet
+
+Deployement models:
+public cloud : shared resource
+private cloud : used only by a company
+hybrid cloud : combination of public and private cloud
+community cloud : it is accessible for multiple parties ex: OWASP
+
+Threats for cloud computing :
+data loss/breach
+abusing the cloud service
+insecure interfaces or APIs
+
+Cloud computing attacks:
+service hijacking using social engineering
+session hijacking using XSS or cross site scripting attack
+DNS attacks
+Sql injection attack
+network sniffing
+DOS/DDOS attacks
+	slow lorris attacks
+
+U can get these portals using ADVANCED IP SCANNER : 
+Cyberroam is one of the proivder of IPS and IDS  /webpages/login.jsp for google dork
+default id : cyberroam pass :cyber 
+WAF : web application firewall
+

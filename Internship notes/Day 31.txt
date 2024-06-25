@@ -1,0 +1,41 @@
+Sql i testing:
+-error based
+google dork:
+inurl:.php?id=1 site:domain.com
+inurl:.php?id=1 site:com
+inurl:.php?id=1 site:in
+inurl:.php?id=1 site:ac.in
+inurl:.php?id=1 site:edu.in
+inurl:.php?id=1 site:org
+target: target.com
+target subdomains: a.target.com
+
+http://berkeleyrecycling.org/page.php?id=1
+
+select * from users 
+this generates all the users information
+
+We can also get db software information using this google dork
+
+Data breach can happen and the severity of this type of vuln can be severe
+
+-time based : the server will respond after a specific amount of time EX : Sleep(50)
+This can result in DOS attack
+
+-blind injection testing : Even the single quote is given to the sql query resulting in an error the vuln will not be shown or reflected to the browser instead no content will be displayed like a blank page
+Hotelornate.com.pk
+
+
+reports of sql injection:
+https://hackerone.com/reports/792927
+447742
+311922
+758654
+310031
+531051
+
+
+Suggested mitigation/remediation actions should be added to the report of the document to make it more valuable
+
+Endpoint is the point where the ethical hacker or pentester can give input to test the vulns
+Endpoint : http://berkeleyrecycling.org/page.php?id=1

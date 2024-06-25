@@ -1,0 +1,44 @@
+Nessus is a vulnerability assesment tool
+Hacker  - Pentester
+
+Vulnerability assesment is a phase in hacking which we analyse the weaknesses which might help the hacker to attack and gain access
+
+Few Types of Vulnerability assesment
+Active
+	interacts directly to targets network and devices and finds vuls
+Passive
+	performs sniffing to find vuls
+
+********************
+If we forget idpass for neseeus
+
+open cmd in admin mode
+commands ;
+nessuscli lsuser : to get all the users
+nessuscli chpasswd user_name : to change the password
+
+**************************
+Vulnerability Scoring System  : vuls are given scoring based on their risk factor and categorized as :
+info 		:	0 - 0.9
+low  		:	1 - 3.9
+medium 	:	4.0 - 6.9
+high  	:	7.0 - 8.9
+critical 	:	9.0 - 10.0 
+This is called as common vulnerability scoring system CVSS
+Score depends on bug criticality
+-------------------------------------------------------------------
+Common vulnerability and Exposure
+
+CVE.MITRE.ORG : all the vulnerabilities are gathered and their info is diclosed there
+Each and every vul has an id number given by cve called CVE number
+Ex : CVE-2020-1234 - number of the vul found in that year
+		    |
+		year in which it was found
+
+-----------------------------------------------------------------------
+
+Target : adikavi nannaya university
+ip : 184.168.119.91
+
+Nessus can only bypass basic firewalls
+nessus essential can only scan 16 ip addresses

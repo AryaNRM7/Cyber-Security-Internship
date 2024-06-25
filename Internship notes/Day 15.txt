@@ -1,0 +1,37 @@
+Sniffing : 
+Is a process of capturing and monitoring of the data packets passing through the network using sniffers
+
+Sniffing is not a hacking technique they are used for diagnostics and observe the network traffic to trouble shoot the issues in the network
+
+The sniffing is performed by making the NIC card run into promicious mode . 
+
+promicious mode : it is a mode where the NIC card will recieve and respond to the datapackets which are not intented to it.
+
+Once the sniffing is successful the attacker can perform some attacks like 
+Session Hijacking
+	Session : An identification given to u as an authorized user
+	the session id which was generetaed for the user by recognizing the user as 	authorixed is captured by the attacker and made control over the user is 	called Session Hijacking
+DOS attack
+MITM(Man in the middle) attack
+	The attacker will come in between of the request blw client and the server
+
+Sniffing can only be performed when the attacker is in the same lan network
+
+Sniffing tools convert the nic card into promicious mode and they capture data packets in the network
+
+Types:
+Active :
+	The attcker sends malicious data packets to the target device in order to capture the data
+Bus topology and Hub Network
+Passive:
+	The attcker doent send any malicious data packets to the target device in order to capture the data
+Star topology and Switch adn Router Network
+
+
+Counter measures against active/passive sniffing attacks : 
+
+Use https instead of http
+Use SFTP instaed of FTP
+Use advanced steganography methods
+use switch or router instead of Hub
+Use sniffing detection tools/promicious devices detection tools

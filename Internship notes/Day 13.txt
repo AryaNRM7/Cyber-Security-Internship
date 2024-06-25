@@ -1,0 +1,52 @@
+Malware analysis
+A malicious software with an intention to damage to make the pc slow or destroy the components 
+
+types : 
+virus
+worm
+spyware 
+ransomware : 2017 may- wanna cry ransom ware attack
+backdoors : remote access trojans
+trojans : they embed themselves into legitimate files and when they bypass the firewalls they start malicious activities ex : MKV , Pirated software
+
+--------------------------------------------------------------------------------------------------------
+
+Steganography : technique used to hide data inside data
+in data like :
+img
+audio
+video\
+email
+links
+text
+folder
+
+hackers use this technique indorder to hide their malwares and transfer them to the victims
+via emails,social media etc...
+
+Virus makers :
+Jps virus makers :
+only for windows OS
+
+worm makers :
+internet worm maker thing (IWMT)
+
+trojans :
+install windows 10 in vbox
+Http/Https trojans :
+uses 80/443 ports to gain access in victims ps
+it craetes backdoors to gain accaes using 80/443 ports web server
+
+Sendanywhere.com
+***************************************
+For http/Https rat :
+create a trojan file
+then u can send it to the victim file
+once u send it
+access the local host with the victim ip address fiollowed by the port number given while creating the file
+then u can remotely access the victims pc
+******************************************
+
+the files stored in "startup" folder are started each and evry time the pc is booted up
+
+viruses and malwares crteated by advanced tech cannot be detected by any fire wall or antivirus

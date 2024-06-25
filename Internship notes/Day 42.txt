@@ -1,0 +1,51 @@
+No rate limiting Bug testing
+
+it is a algortihm which is used to limit the no of reqs a client can make in a given amount of time
+
+Impacts of no rate limiting:
+
+DOS
+
+bruteforcing
+	password bruteforcing -  acc takeover
+	Comments for a post
+	Email subscritpion
+	Blockage of user acc
+	Enumeration of user accs
+		emails
+		phn nos
+		user ids
+		usernames
+
+Google dorks for endpoints to test no rate limiting:
+
+login pages:
+inurl:login.php
+inurl:login.jsp
+inurl:login.aspx
+inurl:login.html
+inurl:login.htm
+inurl:user.php
+inurl:admin.jsp
+
+Forgot password pages:
+
+inurl:/reset
+inurl:/lostpassword
+inurl:/forgot
+inurl:/lost-password
+inurl:/reset-password
+inurl:/reset-password.php
+
+For comment pages:
+Inurl:comments.php
+Inurl:comments.jsp
+
+Inurl:/comments.php
+
+get a quote pages:
+
+inurl:contactus.php intext:"get a quote"
+inurl:contact.php intext:"contact us"
+inurl:contact.php intext:"contact us" intext:"enter your email|id" 
+intitle:"Get a quote"

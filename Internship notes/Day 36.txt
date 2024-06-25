@@ -1,0 +1,23 @@
+Parameter Tampering / Pollution vulnerability :
+
+Done using burpsuite
+
+intecept is used to manipulate the request and then the http req is forwarded , If it doesnt validate the value wiht the previous one then the parameter values is changed
+
+Reports :
+141090
+209008
+927661
+388564
+
+impacts : 
+acc takeover
+enumeration of other users data 
+sensitive data leak
+privilege escalation
+financial loss
+violation of privacy
+price manupulation
+
+vulnerable wallets : 
+airtel money 

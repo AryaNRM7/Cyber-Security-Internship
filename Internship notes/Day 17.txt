@@ -1,0 +1,57 @@
+Few attacks that can be performed by hacker after sniffing :
+Session hacking
+DOS attack
+password Stealing
+By passing firewalls/IDS/IPS
+
+IDS : Intrusion Detection System
+IPS : Intrusion Prevention System
+
+ 
+Session Hijacking :
+It is a process where the user,s session is taken over by the attacker in different ways.
+FEW reasons : 
+predictable session id
+Session sniffing
+client side attacks(based on vuln in the websites or servers)
+MITM attack
+MITB attack(Browser)
+
+Session : An identifeir to the user who is authorized from log in to log out in a service .
+
+Session ID / Token : it is stored in the respective storage
+It is sent in the URL
+
+
+predictable session id : service generates session ids which can be predictable and can be easily guessable
+After session hijacking hacker can perform alll the tasks performed by user can be done by hacker
+
+Session Sniffing :
+By performing network sniffing the hacker can capture and gain the valid users session ids and this happens if the data packets are not encrypted
+
+THis can be done within the network only
+
+CLient side Attacks :Using malicious content
+
+MITM attacks : Data packets are taken by the hacker
+
+MITB attack :Data packets coming from the browser are only considered.
+
+Website : 
+Session id/token is saved in the browser
+they are stored in the cookies and stored in the browser
+
+Cookie Hijacking /Cookie Stealing :
+ Cookie Bro extension
+Export and import cookies
+
+By passing firewalls/IDS/IPS:
+The most common technique that hackers use to bypass would be by using cryptography tchniques for theie expliots/malwares/payloads
+
+Honeypots : 
+Traps for hackers which are a replica of an internal network .
+
+Types :
+High interaction honey pots
+Medium interaction honey pots
+Low interaction honey pots

@@ -1,0 +1,49 @@
+DOS / DDOS attack :
+Denial of service
+Distributed Denial of service
+
+DOS :
+attack used to restrict users from accessing data from a website or a service
+most dangerous service attack
+unlimited data packets are sent to deny the service
+
+it works in TWO layers of OSI model
+Transport and Network layer
+
+in dos attack
+hacker is source
+destination is web server running on 80 port number
+three way handshake for connection using tcp
+
+service running in 80 poort will be spammed with syn packets
+
+*************
+attacker will send a syn packet to dest.
+destination willl respond with a syn +ack packet
+attacker will not respond with any packet
+the destination waits for atleast 60 to 70 secs
+
+DDOS :
+attacker will take over compromised pcs and send syn packets from all the pcs
+
+
+Symptoms of DOS attack :
+Slow performance of system
+increase in spam mails
+unavailability of a service
+Loss of acess to websites
+disconnection of wireless and wired networks
+
+When bandwidth of a service is completely full then u cannot access that service 
+
+Tools :
+Xerxes
+Metaspolit
+Hping3
+
+Syn flood attack :
+hping3 -S --flood <ipaddress> -a <spoofed ip address of the attcker>
+
+Xerxes :
+git clone <url of xerxes from the dev0uss>
+xerxes 

@@ -1,0 +1,59 @@
+SMB service : Server Message Block     **port no 445
+it is used to transfer files bw devices in the network and is used to remotely access the server
+
+SAMBA
+NVD : National vulnerability databse
+exploit - db.com : db maintained by google about all the dorks and all the 				vuls also called a GOOGLE HACKING DATABASE
+
+Packetstorm security : platform for exploits
+metaspolit : tool in kali linux
+
+SMB v1 : remote code execution vulnerability
+		in microsoft os 
+		CVE : commom vuln and exposure
+		CVE- 2017-0143
+		
+		Microsoft vul id : MS-17-010
+
+if The exploit is more heavier than the server ..... The server may crash
+
+
+Web application Attacks :
+Browser -> Webserver -> Application server -> databse server
+
+basic architecture: client - server model
+
+Web application vuln :
+OWASP : open web application security project 
+pentesting methodology
+
+Top 10 WA vulns :
+-Injection : from a web application if the attacker is successful in perofrming 
+
+commands on db
+SQL INJECTION
+os COMMAND
+
+-Broken authentication :
+login functunaility
+session id
+passwords
+no two way factor authentication
+no rate limiting
+
+-sensitive data exposure : 
+no restrictions for unauthorized users
+no restrictions for internet bots 
+
+-XML external entities 
+in advance internship
+
+- Broken Acess Control
+restrictions for usersisnt maintained regarding the access
+
+-Security misconfiguration
+	manipulationg devices configuration 
+- Cross-site scripting
+- insecure Deserialization
+using components with known vulns
+insuufficient logging and monitoring

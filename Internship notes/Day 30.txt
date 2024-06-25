@@ -1,0 +1,52 @@
+any mistake done by the developer during development is called bug that leads to vulnerability
+vulnerability assessment : 
+penetration testing or pentesting : to test the impact of vuln against the data
+
+Web application vuln assessmnet and pentesting :
+
+haveibeenzucked.com
+
+Bug bounty programs : 
+conducted for ethical hackers to find bugs and report them for company
+resposible disclosure
+
+bug bounty plaforms:
+Hackerone
+bugcrowd
+internetbugbounty
+intigriti.com
+yeswehack.com
+nciipc.gov.in
+
+
+
+BURPSUITE :
+proxy btw borwser to webserver
+created by portswigger.net
+
+-------------------------------------------------------------------------------------------------------------------------------
+part 2
+configuring burpsuite in kali linux
+
+SQL injection vuln scope:
+bypass quthentication
+exposing sensitive info
+compromise data
+erasing db
+remote code execution
+
+sql
+dbms
+------------------------------------------------------------------------------------------------------------------------------
+part 3
+htdocs is root folder for xampp
+
+making web server in xampp
+making registration page
+
+google dork to find websites for sql injection:
+inurl:?id=1 site:in
+inurl:.php?id=1 site:in -gov.in
+then add special character to the url at id param and then check foer sql injection
+
+inurl:adminlogin.php site:domain_name

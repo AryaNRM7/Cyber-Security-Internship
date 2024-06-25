@@ -1,0 +1,34 @@
+Dos and DDOS attack counter measures
+
+having a rate limit for no.of req for a certain period of time
+blocking the user acc when recieving more no of req
+having a strong firewall
+active profiling
+using honey pots and redirecting th malicious traffic
+using packet filters
+using IDS and IPS systems
+absorbing the attack (Anti - DDOS protection : CLOUDFARE,ovh anti ddos	)
+
+SLow dos attack:
+the req are sent at very slow speed to keep the connection alive 
+
+SLOWLORRIS
+
+Hacking WEb servers : 
+	Web servers are programs that are used to host  website
+	Web servers use a protocol called HTTP
+
+
+Security issues of a web server:
+two types :
+	Ntework level
+	OS level
+Improper permissions of file directories
+Default configuration
+enabling unnecessary services
+lack of security
+Bugs
+Mis configured SSL certificate
+enabling debugging on client side
+
+Advanced IP scanner

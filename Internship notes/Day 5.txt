@@ -1,0 +1,57 @@
+Continuation of Day 4
+Finding Contact details from a website
+Webdata extractor
+use this software to find emails and phonenumbers present in a website
+---------------------------------
+Finding technologeis that are used in a website 
+CHrome extension
+WAPPALYZER
+This method is also know as TECHNOLOGY LOOKUP
+
+Types of web technologies
+client side : browsers ex: HTML, CSS,JS, 
+
+server side : web server is considered as server side ex : PHP,ASP,DB,JSP
+
+Content management system  : pre-bulit website technologies
+							ex : wordpress, joomla, drupal
+note : The technologies can be grabbed if the developer has not restricted.
+							
+The publicly accesible web technologies will be gathered.
+-----------------------------
+footprinting using email
+
+2 problems
+Not all the emails registered in the target domain will not be displayed in the offical website
+So the hackers have to use additional tools or mechanisma to track all the emails in the website
+there are many websites where people use their emails
+
+Email grabbing techniques
+HUNTER.IO
+
+---------------------------
+Who is lookup
+
+to find when a domain is registered,the domain name,who registered the domain,the expiry date of the domain , its ip address and the contact details of the person who registered along with the address
+
+WHOISDOMAINTOOLS.COM
+
+If a org provides secutiry to the info of the domains , then the contact details cannot be found in the who is lookup
+
+There are also other toools which perform who is lookup but these tools are best in the way they perform
+
+----------------------------------------------
+Footprinting using DNS
+
+Dns contains record which conatin respective info
+
+DNS contains:
+A record - IPv4 addres
+AAAA  record - IPv6 address
+NS record(name server) - name server address
+MX record(mail exchange) - mail server address
+SOA record(start of authority) - domain email owner email id
+PTR record(pointer record) - host name/domain name redirection information
+TXT record - random descriptive is kept here
+CNAME record(canonical name record) - conatins alias names of host name / domain name
+like fb.com | facebook.com | www.facebook.com                                               

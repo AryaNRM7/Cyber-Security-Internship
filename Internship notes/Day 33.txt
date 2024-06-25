@@ -1,0 +1,87 @@
+Part 1 : 
+Broken authentication vulnerability : 
+
+Attacks that can be performed if this vuln exists : 
+auth bypass
+brute forcing
+privilage escalation
+unauth access
+data tampering
+Confidential data closure
+
+
+the reasons for this vuln :
+using weak or short length passowrd
+using same passowrd  for all apps
+maintaing default credentials
+provinding an low end acc with complete access to the resources as a low end user
+storing the credentials in  plain text also sending them in plain text
+using single factor auth mechanism
+
+Case studies : 
+some case studies related to broken authentication vuln
+
+
+http respose manupulation using burpsuite to bypass otp
+
+faasoos.com
+----------------------------------------------------------------------------------------------------------------
+Part 2
+URL redirection vul or open redirection vuln
+
+url with resource :
+anything containing after domain name in url ius called a resource
+
+url with parameters:
+anything after question mark is called a parameter
+
+url redirection:
+codes for encoded url:
+%3A  :
+%2F  /
+%3F  ?
+%3D  =
+%26  &
+
+the redirection within the site for a resource or to another website is called url redirection
+
+redirects use status codes defined within the HTTP response codes :
+
+1xx Informational
+2xx Success
+3xx Redirection
+4xx Client error
+5xx Server error
+
+httpstatuses.com
+
+cases that can happen in url/open redirection vuln :
+
+1.url/open redirection can lead to account takeover
+2.it can lead to phishing attacks
+
+
+this vuln only happens if that web application doesnot validate the redirected paramter in the url
+
+payloads for url redirection:
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect
+
+----------------------------------------------------------------------------------------------------------------
+Part 3
+XSS
+Cross site scripting
+
+fontel.com
+
+search pages comment pages have xss vuln
+
+document.cookie method will grab the cookie details of the current session
+onerror : method used in img tag to execute the dom commands
+
+sever usually ignores the dom paramters in the validation process
+
+
+case studies :
+microsfot
+google
+

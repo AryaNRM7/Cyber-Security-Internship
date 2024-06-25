@@ -1,0 +1,40 @@
+File upload vulnerability
+
+web apps have file upload functionality
+
+The server should verify the files that are uplaoded are not executable files
+
+This means that the server should prevent the user to upload executable files
+
+The validation of file extension shouls be done on both client and server end
+
+
+File upload vulnerability leads to remote code execution
+File upload vulnerability can also lead to DOS attack
+File upload vulnerability leads to defacement of the website or webservers
+
+
+base 64 encoding is used by devs to stops users from adding third party links to their links
+
+
+broken access control which leads to file upload vuln:
+
+google dorks :
+inurl :/assets/filemanager/
+index of admin/fckeditor/editor/filemanager/
+
+all wp websites have same folders to upload and store content
+
+/wp-content/uploads/-----
+
+fckeditor is vulnerable :
+admin/fckeditor/editor/file
+
+1337 - leet sign for hacking activity
+
+built with chrome extension
+
+
+
+
+

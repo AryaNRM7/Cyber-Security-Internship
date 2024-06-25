@@ -1,0 +1,15 @@
+Newly created subdoamins should be used for chesing vulnerabilities
+
+A sub domain can seta cookie for the main domain
+the cookie is set via JS
+Session cookies - maintain and store session id
+
+
+a subdomain sets the session id for the user in the base domain
+then the attacker replaces the session id with the user session id
+then the attacker has the same session as the user 
+the session autheriazation will be given to the attacker from the user
+
+Learn basics of JS
+
+Try for URL redirection vulnerability

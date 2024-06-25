@@ -1,0 +1,40 @@
+ 6 phases of ethical hacking
+Information gathering/footprinting/reconnaisance
+
+objectives of footprinting
+	to know the security poster
+	to reduce focus area
+	identify vulnerabilities
+	draw the network map
+
+footprinting techniques
+	footprinting using search engines
+	footpinting using advanced google hacking techniques
+		Google Dorks
+			site: results of specific site /domains
+			inurl: results of websites which have the string specified in the 				  urls
+			intext: results of websites which contain specific text in their 				   web page. If ext had spaces give the text in double 					  quotes
+			filetype:  results of websites which contain specific file 						extension uploaded in website
+			pdf:
+			ppt:
+			book:
+			related:
+			intitle: results of websites which have a specific string in the 				    title of the webpage
+		note :1. works in every search engine
+			   2. Whatever information we get from google dorks all of it is 				publically available information 
+	footprinting through social networking sites
+		can use google dorks for this
+		Social-Searcher.com
+	footprinting using companies website
+		cyotek web copy
+			website crawling : scanning all the links present in the website
+			cyotek web copy:links inside links are also retrieved by this 			tool.
+	footprinting using emails
+	footprinting using whois lookup
+	Footprinting using DNS
+	Footprinting the target network
+	Footprinting using social engineering
+	Footprinting using shodan.io / osintframework.com
+
+
+

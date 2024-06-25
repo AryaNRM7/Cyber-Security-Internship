@@ -1,0 +1,47 @@
+Anti key loggers :
+	types 
+		one which identify and delete the key loggers
+		identify the key logger and they encrypt your data
+			they block the data collection
+KEY SCRAMBLER
+
+Fea keylogger
+only for chrome
+it can bypass anti key logger
+
+
+Prcoess Explorer 
+to detect all the files and their behaviour towards th os
+it also helps in finding the viruses by scanning with virus total
+
+We can scan a file manually and automatiacally
+
+------------------------------------------------------------------------------------------------------
+
+Clearing tracks
+logs created by hacker will be removed inorder to not get detected
+
+in windows
+
+Event viewer  : shows all the logs in the os
+Clear log
+
+**command line tool called AUDITPOL
+cmd in admin mode
+
+ auditpol  /?  -shows all possible options 
+auditpol /get /category:* - shows all category
+auditpol /clear - to clear all the audit policies
+auditpol /set /category:"Logon/Logoff" /success:yes - to set the sudit pol for a separate category
+auditpol /get /category:"Logon/Logoff" /success:yes - to get info of that audit pol
+
+for linux :
+the logs are stored in a file
+path : /var/logs
+they are stored in plaintext and text files and are not encrypted
+
+to clear logs 
+
+rm -rf auth.log
+
+it is easy to clear tracks in linux

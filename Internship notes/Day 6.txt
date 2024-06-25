@@ -1,0 +1,158 @@
+Nslookup tool used to find the records in the DNS
+bulit in with windows and linux
+
+syn: nslookup domain_name
+ex : nslookup facebook.com
+
+For specific domain records
+
+syn : nslookup -type= recordtype domain_name
+ex : nslookup -type= AAAA facebook.com
+
+
+Online paltofrm : dnslookup.online
+-------------------------------------------------------------------------
+
+Footprinting of target server
+
+hacker finds
+- IP ADDRESS using a tool called PING comes inbuilt with windows and linux
+syn : ping domain_name
+
+mgit.ac.in : 65.2.53.139
+
+- REVERSE IP LOOKUP  : it is used to find the co hosted websites on the target server's network
+
+online platform : hacker target.com
+
+- SUB DOMAINS OF A TARGET DOMAIN 
+This process is also called SUB DOMAIN  ENUMERATION
+online platform : virustotal.com
+this is used to find subdomains
+
+some of the sensitive domains are : cpanel
+
+
+there is another tool : sublist3r built in python
+Sublist3r 
+installation
+
+python -m pip install -r requirements.txt
+python -m pip install requests
+python -m pip install dnspyhton
+python setup.py install
+
+pip - pyhton interpreter
+
+to get subdomains
+sublist3r -d mgit.ac.in
+
+----------------------------------------------
+Footprinting using Social engineering
+
+psycological manupulation actions which help get confidential info
+
+ex  : phishing : fake links
+	SMShing - fake sms
+	Vishing - fake voice calls
+	
+
+to grab the ip address of the victim the hacker uses ip logging technique
+they give fake links which help hacker to get ip address,approx address, device details
+
+open source platform : Grabifyip
+steps : 
+-select an image
+- it creates an fake link
+then ucan send it and find those ip addressess in the results section
+
+to avoid ourselves from using this type of links
+use Redirect Detective website
+
+---------------------------------------------------------------
+footprinting using SHODAN.io and osinetworkframework
+
+shodan.io - different devices connected in open networks can be grabbed by shodan
+
+OSINTFRAMEWORK.COM
+
+
+------------------------------------------------------------------------------------------------
+Day 6 part 2
+
+
+Second phase of Ethical hacking
+Scanning
+Also called as NETWORK SCANNING
+this process is used to find the devices in the network
+
+beginner level objectives of netwrok scanning:
+these are basic techniques
+-to find devices live in the netwrok
+-find open and close ports
+-services and thier versions
+-os
+-banner info
+-firewalls and to bypass them
+-and should use a vpn to stay anonymous
+
+there are other 10 advanced scanning techniques........which we will learn in advanced internship
+
+port is a gateway for data transfer between devices
+open port : packets can be transferred
+closed port : packets cannot be transferred ,ports are closed by firewall
+
+port number : it is used to direct the data to correct location within the device
+65536 ports available in each device
+range of port numbre 0 - 65535  ex : 80 - http,443 - https,53 - DNS
+
+Each and every port number has its own protocol
+netbios : network basic input output system
+
+*for some domains we have to use www. to ping the ipaddress
+
+domain : tapsyaedu.com 
+ip : 103.210.75.45
+
+103.210.75.1 - 103.210.75.255
+
+**if we get a IPv6 address,we have to use the nslookup command to find the IPv4 address
+
+pingsweep technique is used to ping all the ip addresses in a given range
+
+--pingsweep tools
+ANGRY IP SCANNER
+	red - device doesnt exist
+	green - the device as two open ports 80 and 443
+	blue - device is live
+ADVANCED IP SCANNER
+
+--NMAP : 
+used for network scanning
+it is called a swiss army knife refers to that it can be used for multiple uses
+used to find ip,ports,services etcc
+
+in target field we can give
+ip addr
+ip addr range
+domain name
+
+if a service is given as tdwrapped after completion of scan that means that it has a firewall
+
+Nmap will only scan 1000 ports by default
+time taken to analuze depends on the target site
+
+
+--*To find the os of a device and to find the banner details there is an alternative online paltform
+
+SITEREPORT.NETCRAFT.COM
+this give info about
+domain info
+dns admin info
+ipaddr details
+network configuration
+hosting history
+
+
+
+

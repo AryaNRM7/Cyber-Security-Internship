@@ -1,0 +1,35 @@
+Virtualization : 
+creation of a virtual instance of a thing on a single hardware
+
+Os virtualization:
+we can use 
+oracle virtual box
+vm ware
+microsoft hyper v
+
+oracle virtual box developed in java
+
+kali linux :
+used by hackers / pentesters / ethical hackers because it provides a large range of tools for hacking
+
+---------------------------------------------------------------------------------------------------------
+
+Social Engineering : 
+the process of stealing sensitive info from the victim by doing misleading activities 
+
+Phishing : fake website links or messages
+
+Vishing : uses his voice as a weapon to reveal sensitive info 
+
+SMShing: sends them messages to get info
+
+identity theft : gather info about victim and create fake social media profiles to get info
+
+tailgating : attacker bluffs other as he is a authorzed person by going behind the authorized person
+
+
+Social pHish :
+git clone https://github.com/xHak9x/SocialPhish.git
+cd SocialPhish
+chmod +x socialphish.sh
+./socialphish.sh

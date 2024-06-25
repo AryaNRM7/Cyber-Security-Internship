@@ -1,0 +1,21 @@
+ARP spoofing :
+This attack is used by hackers to perform MITM attack
+
+Arp: address resolution protocol
+it is used to map MAC addressess to their respective IP addresses and vice versa 
+
+Arp spoofing atack : 
+Hacker sends a forged ARP reply to the router device saying that his device is the victim device .
+
+Each and every device know their Ip addresses But they dont know their MAC addresses
+If the hacker performs MAC spoofing and then performs Arp spoofing he might not get alll the packets
+
+In switch and router network a CAM table is maintained to identify which mac address is on which ip and on which port  
+While the Arp spoofing is being done the CAM table is updated with the forged replies of the hacker
+
+Ettercap : Available both in GUI and CGI
+ettercap -G
+
+Counter measures from ARP spoofing:
+Use a VPN
+

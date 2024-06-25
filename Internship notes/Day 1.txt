@@ -1,0 +1,59 @@
+INTERNET
+
+1969 Internet started ARPANET- advanced research project agency
+1970 TCP/IP
+1984 ARPANET was named as INTERNET with 1000 computers
+1985 DNS Domain Name Space/System
+1985 symbolics.com is the first dns
+1998 google.com was found
+1998 napster.com was the first domain to get banned for publishing copyright music
+1999 first virus was released named "Creeper"- "Hi im creeper catch me if you can!"
+BSNL provides internet access using telephone lines
+Submarine communication cables - Speed:1 TB per sec
+
+----------------------------------------------------------------------------------------------------
+
+NETWORKING
+
+Network - Communication bw two devices
+LAN - Small area - Wifi of a building
+WAN - countries to countries and cities inside a country - Internet
+MAN - for a metropolitan city - CC cameras
+PAN - for one's personal use - localhost,traffic lights
+CAN - Campus Area Network - college
+--------------
+Topology
+
+2 categories
+Physical topology
+	Design in which systems/devices are connected to each other.
+Logical topology
+	Design in which systems/devices are communicating with each other.
+
+Types 
+Point to point - Two devices
+Bus - Backbone cable
+Ring - 1 is connected to 2 other computers
+Star - All devices are connected to a central device
+Tree - combination of bus and star
+Mesh - Each and every device is connected to each and every other device in the network separately
+point to point with each device in the network
+Hybrid - combination of more than two topologies
+
+Hybrid is most used
+data transfered through star topology
+
+-------------------------------------
+
+IP (Internet Protocol) address
+
+Unique idetifier for every network present in the network
+
+2 types
+IPv4 address - 32 bit denoted using 4 octets
+IPv6 address - 128 bit denoted using 8 hextets (16)
+
+
+
+
+

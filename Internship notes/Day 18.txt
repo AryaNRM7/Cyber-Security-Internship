@@ -1,0 +1,19 @@
+Honey Bot:
+Medium interaction honeypot
+If hacker uses a VPN the Vpn Ip address will be logged in the honey pot
+
+Installation of zenmap in kali linux
+
+Xarp : 
+to detect whether the arp spoofing is done or not
+Ettercap is used to perform arp spoofing
+
+Data Recovery :
+
+The deleted data will not be directly deleted they can be recovered
+The priority for the recovery of data will be very low for Old formats
+
+ Tools :
+Disk drill
+
+

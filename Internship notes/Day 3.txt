@@ -1,0 +1,49 @@
+Hacking
+process of identifying loopholes and exploiting them to to take unauthorized access by breaking security
+purpose:
+money
+damaging reputation
+stealing data
+
+Hacker is a person who has graet knowledge about networks architectures and different OS to fnd loopholes and gain unauthorixed access
+
+Ethical Hacking or Penetration testing 
+which is authorized attack to find loopholes and exploit them indorder to break security and patch them up
+
+Hackers who work for companies inordder to perform penetration testing hired by a company
+----------------------------------------------------------
+Phases :
+5 Phases of Hacking : 
+Information Gathering/ Footprinting/reconaissance
+Scanning
+gaining Access
+Maintaining Access
+Clearing tracks / logs
+
+6 phases of Ethical hacking : 
+Information Gathering/ Footprinting/reconaissance
+Scanning
+Enumeration - diff data travelling between diff devices in a network
+Gaining access
+privilege escalation
+Clearing tracks/logs
+----------------------------------------------------
+Techniques or policies followed by EH
+Vulnerability Assesmment
+	The VA is an authorized process of analyzing the vulnerabilities their risk factor and categorzing them and generating a report about the company network and security
+
+Types : 
+Internal assessment
+External assesment
+Active assessment
+passive assessment
+wireless network assessment
+host based assessment - 
+appilcation based assessment - done on software applications used in the company
+
+
+
+
+
+
+Penetration testing

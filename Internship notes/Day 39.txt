@@ -1,0 +1,20 @@
+improper input validation leads to html injection leads to remote file inclusion might lead to remote code execution
+
+Ramanujan college - vulnerable to login bypass
+
+
+Director/ Path traversal veln:
+
+LFi - local file inclusion
+RFI - remote file inclusion
+
+we give directory and change the location and acces the files
+
+../../../../etc/passwd
+
+this will give access to the internal files in the website
+
+Google dork to check for Local file inclusion vuln :
+inurl:index.php?page=
+inurl:php?filename=
+inurl:gallery.php?img=

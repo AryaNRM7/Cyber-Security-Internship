@@ -1,0 +1,24 @@
+Android 4.4 installation in VM
+
+commands to start a service :
+
+service apache2 start
+service apache2 status	
+
+to get the folder where default webpage is present :
+-/# cd var
+ls
+-cd www
+ls
+-cd html
+ls
+
+to copy file from onr folder to another :
+cp apkname.apk path 
+
+to store the malicious files in server, the attacker uses the defaukt page folder and stores them in that folder, when the website is opened by the victim the file is directly downloaded.
+
+meterpreter commands:
+help
+geolocate
+

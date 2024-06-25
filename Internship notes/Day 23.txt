@@ -1,0 +1,46 @@
+Broken Access Control
+publicly accesssible files are accessed by the attacker
+
+Cryptographic Failures
+Injection
+Insecure Design
+
+Security Misconfiguration
+authentication for default configuarations
+authentication for sensitive information
+
+Vulnerable and Outdated Components
+Identification and Authentication Failures
+Software and Data Integrity Failures
+Security Logging and Monitoring Failures
+
+
+Server-Side Request Forgery
+Cookies and session are hacked
+XSS vulnerability
+
+XSS :
+this vuln exists in web applocations which takes user input and generates a dynamic page with user input and if the website is not validating the input then the application is under XSS vuln
+
+malicious JS or HTML code into the web application
+E commerce websites
+Library management Systems
+comment pages
+FAQ pages
+Search Pages
+
+Website : fontel.com
+
+XSS vuln types 
+
+Reflected XSS
+it is executed only once
+
+Stored XSS
+from the data saved by the server during searches
+kevninar.com
+
+DOM based XSS
+Not stores or reflected by the server
+
+

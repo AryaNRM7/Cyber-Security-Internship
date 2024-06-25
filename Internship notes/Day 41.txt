@@ -1,0 +1,39 @@
+NO SPF/ INVALID SPF / Misconfigures SPF record vulnerability:
+
+SPF record is a type of dns record which identifies the mail servers that are authorized to send emails on behalf of the domain.
+
+SPF is stored in TXT dns record
+
+SPF record: "v=spf1 include:mail.domain.com -all"
+
+v - version of spf
+include - it specifies the ip addresses domains submnets
+-all - this restricts all the other domains ips an subnets from sending emails
+
+
+Id spf record is not vaild, then the emails sent by the domains are considered as spam
+
+ANy mailicious attacker can spoof the  email registeres to your domain or even emails that are not registered.
+Spreading fake info that can damage the reputation of information
+Perform phishing attacks
+Get sensitive or confidential information
+
+Testing for no spf/ invalid spf:
+Manual
+
+command line tool, always open in adminstrator mode	
+Ns lookup 
+commands:
+nslookup -type=TXT targetdomain.com 
+used to grab the spf record from the domain
+dnslookup.online can also be used
+
+
+Automation
+
+kitterman.com
+mxoolbox.com/SuperTool.aspx
+
+platform for spoofin email to test for SPF
+
+emkei.cz

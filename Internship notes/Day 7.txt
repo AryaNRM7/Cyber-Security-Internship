@@ -1,0 +1,79 @@
+domain - skrrec.edu.in
+ip - 68.178.231.130
+68.178.231.1 - 68.178.231.255
+68.178.231.1-255
+
+ping scan will ping all the devices with the ip addr
+intense scan only 1k devices
+intense scan with all tcp ports scans all the 65536 devices
+
+Timing scan : used to reduce the time consumed by nmap
+
+ssh connection gives remote connection to the hacker
+***port number 22 : ssh
+ssh : Secure shell
+openssh is used by adminstrator to remotely make connections and make changes
+
+***3306 - mysql port number
+----------------------------------------------------------------------------
+
+port number 21 : FTP
+there might be confidential info that is why it is protected by firewall
+------------------------------
+Enumeration : hacker will be actively gathering information by directly accessing all the services and by direct interaction
+
+to perform enumeration we need proper authorization
+
+info that can be accessed whilw enumeration :
+- Routing info
+- SNMP info
+- DNS info
+- machine name
+- user information
+- group info
+- applications and banners
+- network sharing info
+- network resources
+---------------------------------------------------------------------
+- enumeration using email addr
+	have i been pawned?
+	can be used to find info 
+- enumeration using default userid and password
+	on a network ......once u are connected to a network u are provided with 	a private ip addr like 192.68.0.20
+router will also have a private ip addr
+
+
+ ****the ip addr in private network will not be same ... it will cahnge from network to network****
+
+
+Ip addr in public network are static and they dont change
+ ------------------------------------------------------------------------------
+to find public and private ip addresses
+Each and every rourter has a default user id and password
+
+
+- enumeration using FTP
+	ftp servers also have default usernames and passwords
+	ex : uname : ANONYMOUS
+		pass : ANONYMOUS
+- enumeraiton using shared resources
+Network sharing : default feature in windows and linux
+To get the resources u need authorization
+
+
+- enumeration using netbios
+Netbios is used to share information between systems present in a local network
+	netbios enumeration : 
+	list of machines within a domain
+	file sharing
+	printer sharing
+	usernames
+	group info
+	user accounts and password info (password policy)
+	services running
+	Dns info
+	
+***netbios only works on WINDOWS servers 
+it runs on 137,138,139 port numbers 
+
+

@@ -1,0 +1,58 @@
+Os command injection vulnerability
+
+Which takes userinput as a input and executes it as a code in the server side shell
+
+If the user input is not validated then we may have this vulnerability and attacker can take access of the remote shell on targte server
+
+paramaters for os command injection;
+
+daemon=
+host=
+upload=
+dir=
+exec=
+exe=
+execute=
+down=
+download=
+log=
+ip=
+cli=
+cmd=
+file=
+op=
+opt=
+option=
+cd=
+
+
+Delimiters are:
+;
+&
+&&
+^
+$
+|
+||
+>
+<
+\n
+\r
+%0D
+%0A
+
+how to find:
+Find input fields that intercat with os
+try to execute the shell command with delimiters
+ex:
+;ls
+;dir
+;pwd
+$pwd
+<pwd
+<ls
+if we get response that is if the given command is executed then take ss
+
+
+LAB:
+	DVWA : Damn vulnerable Web application

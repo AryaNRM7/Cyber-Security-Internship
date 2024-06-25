@@ -1,0 +1,65 @@
+Sql injection:
+Types:
+1.In-band Sql injection :mostly used
+2.Inferential Sql injection 
+3.Out of band Sql injection
+
+
+Google dork to find pages with id parameters :
+inurl:id=1
+inurl:.php?id=1
+inurl:?cartis=1
+inurl:gallery.php?id=1
+
+1.In-band Sql injection:
+attacker can use same channel of attck to launch the attack and gather the results  
+ types of In-band Sql injection
+	1.error based :
+		the error on the sever side should be handles on the server side or else it is vulnerable to error based sql injection
+	For ecommerce website :
+		 parameters after question mark will send as a sql query
+		A hacker wantedly gives special characters or other characters in the sql query to check whether the web app is vuln to error sql injection.
+ 	if the hacker gets an error returned to him by the databse,then he can access he entire database.
+	2.union based
+		used to combine two queries and execute on the server side using union operator
+
+2.inferential SQL injection
+no information will be provided to the hacker by the database
+in this case
+The hacekr will just send home reconstructed SQL payloads
+observes the websites response 
+by analyszing the behaviour of the website the hacker understands that there is an SQL injection vuln
+
+Types :
+Boolean Based blind SQL injection:
+	True of False
+Time based bling SQL injection:
+	hacker needs to find where the sql query is being executed until the query given by him is executed.
+
+##https://travelservices.com.pk/detail.php?id=4
+
+##https://lichenprofessional.pk/product-category.php?id=1%27&type=top-category
+
+http://native.edu.pk/detail.php?ComCatID=11
+
+##https://www.speedsports.com.pk/content.php?id=1
+
+##https://travelservices.com.pk/aboutus.php?id=1
+
+http://mobilephones.pk/category-list.php?id=1
+
+3.OUT of band SQL injection :
+very rare and dangerous
+based on features of a web application that are enabled on the server side
+the out of band sql injection occurs when an attacker is unable to use the same communication channel in order to launch and retireve the data
+
+Tools:
+1.havij (only for http websites) / Havij pro(for https) : for http or https links
+2.SQL map
+
+
+
+
+
+
+

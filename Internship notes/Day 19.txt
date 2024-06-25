@@ -1,0 +1,58 @@
+Few techniques to avoid sign in steps
+
+Temporary email service
+10minutemail.com
+
+Grabbing doccuments of a website :
+Data grabbing tehxniques
+
+Goggle dorks
+FOCA - fingerprinting organisation using collected archives
+
+MEta data of docs
+grabbing all links to the docs
+gather network info of the target domain
+basic vuls can be found
+
+it uses three search engines:
+Google 
+Bing
+Exalead
+
+VoIP - voice over Internet Protocol
+WAF - web application firewall
+
+Directory listing vul : 
+can be found by attacker after using FOCA
+list of all the directories can be accessed using the links genretaed in FOCA
+
+***The publicly available docs and directories can be fetched using FOCA
+
+
+
+Grab the publicly available data which were deleted in the website previously say 3-4 yrs
+
+Internet archive website : uses webarchive
+
+To avoid this :
+1.Devs has to use a file called robots.txt
+this file restricts the acccess to the users
+where tis file should be uploaded at the root folder of the website
+robots.txt should contain :
+	user-agent : ia_archive
+	Disallow:/
+if it contains : ALLOW:/SEARCH/ allows the hacker to search all the files in SEARCH Folder
+
+MAC address spoofing in kali linux and ubuntu :
+MAC changer : inbulit in kali linux
+
+ifconfig eth0 down
+change : macchanger -r eth0
+restore : macchanger -p eth0
+for custom mac address : 
+macchanger --mac xxxxxxxxxxx
+
+for ubuntu :
+apt-get install net-tools
+sudo apt-get install macchanger
+sudo macchanger -r eth0

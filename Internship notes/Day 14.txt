@@ -1,0 +1,37 @@
+How hackers share their data :
+Steganography
+Used by hackers to send their data in a hidden way
+
+Types:
+Image steganography
+	hiding data into images
+	the data will be embedded into the pixels of the image
+	Quick stego 
+Audio steganography
+	hiding data into audio files 
+	the data willl be embedded into the bits of the audio(Bit rate)
+	Deepsound
+video steganography
+folder steganography
+white space steganography
+Email steganography
+
+
+MAC address is assinged to the NIC card
+Network Interface Card
+
+MAC lookup : gives info about the device
+
+MAC address Spoofing :
+Tmac tool
+
+To get mac address : ipconfig /all
+
+most common social engineering techniques
+Email spoofing :
+sneding email from an other email 
+EMKEI.CZ
+
+Email spoof detection : 
+Google has a email header analyzer tool to identify any spoofed mails
+Google message header analyzer

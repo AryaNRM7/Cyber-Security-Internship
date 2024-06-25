@@ -1,0 +1,18 @@
+Endpoints where u can try out XSS payloads:
+
+select a target
+*search for user input fields 
+given input should be reflected back in title of page,same input field, anywhere in the page,in the url
+
+Automation of finding xss vulnerability using burpsuite:
+WE USE INTRUDER
+we load all the payload into the intruder
+intruder by default only provides us with the first http response
+we need to configure it to follow all the http redirections
+for each and every usage of intruder
+
+options -> to the bottom we have redirections -> set it to always
+
+crt.sh to find the subdoamins
+
+impact of XSS vuln is session hijacking

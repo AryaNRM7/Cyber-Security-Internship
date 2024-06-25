@@ -1,0 +1,10 @@
+HTML injection
+similar to sql injection but html codes are given as input
+
+we need to find wordpress website plugins , coz they are the most vulnerable for html injecton vulnerability\
+
+alm templates
+
+ajax load more local file inclusion vulnerability
+
+wordfence a plugin for wordpress for protection

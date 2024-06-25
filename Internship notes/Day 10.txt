@@ -1,0 +1,56 @@
+VPN : virtual private network
+hackers use it to hide ip and location
+it shows ip and location of the router which u choose rather than ur own 
+
+VPN can provide benefits of a wide range network
+
+proton vpn
+zenmate vpn
+nord vpn etc..
+
+they are used to maintain anonymity and use to scan vulnerabilities
+
+Disadv : 
+Slow internet access
+
+if we find a vul in the website , we have to geneate a report about the vuls
+
+-------------------------------------------------------------------------------
+GAINING ACCESS
+
+they depend and exploit the vuls adn gain unauthorized access
+
+open cmd in admin mode
+enter : net user
+enter : net user user_name password
+
+Maintaining access
+	in this phase hacker will install some backdoors or malwares in order to maintain the command and control over the compromised system
+
+malware is considered as a bad software which might damage ur files.
+malicious software
+categories :
+viruses : damages ur installed programs with user interaction
+worms : 	    "		  "   		"  		"	 without user interaction and has the capability to spread itself from one pc to another within in the network
+spywares : malware which monitors each and every activity on the device in which it has been installed 	and reports the activity log and sends it to the remote hacker
+like camera , location , microphone , web activity , keyboard strokes
+
+Types of Spyware
+Web activity spyware
+audio spyware
+video spyware
+application spyware
+key loggers etc....
+
+Key loggers :
+they are used for legitimate pupose in order to monitor their employees
+they are used by parents to moiotr their kids
+used by hackers to steal sensitive data from their victims
+
+they are of two categories
+hardware
+software
+
+advanced keyloggers :
+it can log each and every log
+ARDAMAX KEYLOGGER
